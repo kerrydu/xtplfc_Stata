@@ -28,7 +28,7 @@ If you use this module, please cite  the following papers:
 
 > Du, K., Zhang, Y. and Zhou, Q. 2019. "Estimating partially linear functional-coefficient panel data models with Stata"
 > Working Paper.
-> http://scorreia.com/research/hdfe.pdf
+> https://github.com/kerrydu/xtplfc_Stata/blob/master/manuscript.pdf
 
 
 
