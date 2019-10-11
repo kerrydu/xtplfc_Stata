@@ -6,6 +6,13 @@ Stata module for estimating partially linear functional-coefficient panel data m
 - **xtdplfc.ado** estimates partially linear functional-coefficient dynamic panel data models.
 
 
+## Install from github
+```
+net install github, from("https://haghish.github.io/github/") 
+github install kerrydu/xtplfc_Stata
+```
+
+
 ## Requirement 
 - Stata version 14 or later
 - Depends on the `moremata` and `bspline` packages
@@ -15,7 +22,7 @@ Stata module for estimating partially linear functional-coefficient panel data m
 
 ## Citation
 
-If you use this module, please cite  the following papers:
+If you use this module, please cite  the following paper:
 
 ```bibtex
 @TechReport {xtplfc2019,
