@@ -40,5 +40,5 @@ If you use this module, please cite  the following paper:
 
 
 ####  Things to be aware of:
-- Sometimes  **lxtplf.mlib** might not be indexed automatically. Consequently, the program would abort with error information that mata function could not be found. In this case, please prompt "mata mata mlib index" in the Stata and re-run the command. 
-- If you find any issues during using this module, please email to [**Kerry Du**](https://kerrydu.github.io/) (kerrydu@xmu.edu.cn)
+- Sometimes  **lxtplfc.mlib** might not be indexed automatically. Consequently, the program would abort with error information that mata function could not be found. In this case, please prompt "mata mata mlib index" in the Stata and re-run the command. 
+- If you find any issues during using this module, please report issues on [**Github**](https://github.com/kerrydu/xtplfc_Stata/issues), or email to [**Kerry Du**](https://kerrydu.github.io/) 
