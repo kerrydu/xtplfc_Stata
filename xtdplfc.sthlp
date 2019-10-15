@@ -256,6 +256,9 @@ An, Y., H. Cheng, D. Li. 2016. Semiparametric estimation of partially linear var
 linear panel data models with fixed effects. 
 {it:Annals of Economics and Finance} 3: 103-116.
 
+{phang}Du, K., Zhang, Y. and Zhou, Q. 2019. {browse "https://github.com/kerrydu/xtplfc_Stata/blob/master/manuscript.pdf":Estimating partially linear functional-coefficient panel data models with Stata}. 
+{it:Working Paper} 
+
 {phang}
 Libois, F. and V. Verardi. 2013. Semiparametric fixed-effects estimator. {it:Stata Journal} 13: 329-336.
 
