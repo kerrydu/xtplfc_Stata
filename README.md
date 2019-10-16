@@ -6,11 +6,17 @@ Stata module for estimating partially linear functional-coefficient panel data m
 - **xtdplfc.ado** estimates partially linear functional-coefficient dynamic panel data models.
 
 
-## Install from github
+## Install within Stata
+* Method 1: **net install**
+```
+net install xtplfc, from("https://raw.githubusercontent.com/kerrydu/xtplfc_Stata/master/")
+```
+* Method 2: **github install**
 ```
 net install github, from("https://haghish.github.io/github/") 
 github install kerrydu/xtplfc_Stata
 ```
+
 
 
 ## Requirement 
@@ -40,5 +46,5 @@ If you use this module, please cite  the following paper:
 
 
 ####  Things to be aware of:
-- Sometimes  **lxtplfc.mlib** might not be indexed automatically. Consequently, the program would abort with error information that mata function could not be found. In this case, please prompt "mata mata mlib index" in the Stata and re-run the command. 
+- Sometimes  `lxtplfc.mlib` might not be indexed automatically. Consequently, the program would abort with error information that mata function could not be found. In this case, please prompt `mata mata mlib index` in the Stata and re-run the command. 
 - If you find any issues during using this module, please report issues on [**Github**](https://github.com/kerrydu/xtplfc_Stata/issues), or email to [**Kerry Du**](https://kerrydu.github.io/) 
