@@ -28,7 +28,7 @@ github install kerrydu/xtplfc_Stata
 
 ## Citation
 
-If you use this module, please cite  the following paper:
+If you use this module, please cite  the following papers:
 
 ```bibtex
 @TechReport {xtplfc2019,
@@ -38,10 +38,19 @@ If you use this module, please cite  the following paper:
   Year = {2019},
 }
 ```
-
-> Du, K., Zhang, Y. and Zhou, Q. 2019. "Estimating partially linear functional-coefficient panel data models with Stata"
+> Du, K., Zhang, Y. and Zhou, Q. 2019. Estimating partially linear functional-coefficient panel data models with Stata.
 > Working Paper.
 > https://github.com/kerrydu/xtplfc_Stata/blob/master/manuscript.pdf
+
+```bibtex
+@TechReport {zhang2018,
+  Author = {Zhang, Y., and Q. Zhou.},
+  Title = {Partially linear functional-coefficient panel data models: Sieve Estimation and Specification testing},
+  Note = {Working Paper},
+  Year = {2018},
+}
+```
+> Zhang, Y., and Q. Zhou. 2018. Partially linear functional-coefficient panel data models: Sieve Estimation and Specification testing. Working paper.
 
 
 
