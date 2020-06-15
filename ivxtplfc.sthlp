@@ -107,7 +107,7 @@ Leave-One-Out CV across the panelvar. That is to say, we leave one individual (w
 
 {phang}{opt minnknots(numlist)} specifies the minimun number of knots used for performing LSCV. If absent, 2 is assumed.
 
-{phang}{opt grid(string)} specifies the name for storing the grid points of the variable specified by {cmd:uvar(varname)}. If present, the functional coefficients are estimated over the grid points. By default, 
+{phang}{opt grid(string)} specifies the name for storing the grid points of the variable specified by {cmd:uvar(varlist)}. If present, the functional coefficients are estimated over the grid points. By default, 
 they are estimated over the observations.
 
 {phang}{opt pctile(#)} specifies the domain of the generating grid points. It can be only used when {cmd: grid(string)} is specified. The default is pctile(0).

@@ -37,7 +37,7 @@
 {synopt:{cmdab:quan:tile}}specify creating knots based on empirical quantiles. {p_end}
 {synopt:{cmdab:maxnk:nots(numlist)}}specify the maximun number of knots used for performing LSCV. {p_end}
 {synopt:{cmdab:minnk:nots(numlist)}}specify the minimun number of knots used for performing LSCV. {p_end}
-{synopt :{cmd: grid(string)}}specify the name for storing the grid points of the variable specified by {cmd:uvar(varname)}.{p_end}
+{synopt :{cmd: grid(string)}}specify the name for storing the grid points of the variable specified by {cmd:uvar(varlist)}.{p_end}
 {synopt :{opt pctile(#)}}specify the domain of the generating grid points. The default is {cmd:pctile(0)}. {p_end}
 {synopt :{opt brep(#)}}specify the number of bootstrap replications. The default is {cmd:brep(200)}.{p_end}
 {synopt :{opt wild}}specify using the wild bootstrap. By default, residual bootstrap with cluster(panelvar) is performed.{p_end}

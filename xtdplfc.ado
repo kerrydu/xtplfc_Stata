@@ -1,3 +1,5 @@
+*! version 7.0.1
+* 2020-6-15
 *! version 7.0
 * 2019-8-26
 * change cvtwo option to tenfoldcv
@@ -50,6 +52,8 @@ syntax varlist, GENerate(string)  Uvars(varlist) [Zvars(varlist) endox(varlist) 
 		exit 198
 		}				   
 */
+
+	qui mata mata mlib index
 *************************************************************				   
 				   
 				   
@@ -2405,6 +2409,7 @@ end
 ****************************************************************************
 
 
+/*
 cap program drop splitsample
 
 program define splitsample
@@ -2440,7 +2445,27 @@ _pctile `rn', p(`n1'(`n1')`n2' )
 		qui replace `gen'=`n' if missing(`gen') & `touse'
 
 end
+*/
+* 2020-6-15
+cap program drop splitsample
 
+program define splitsample
+
+version 14
+
+syntax [if] [in], gen(string) [n(integer 2)]
+
+marksample touse
+
+*count if `touse'
+confirm new var `gen'
+
+tempvar rn
+qui gen `rn'=uniform() if `touse'
+
+qui xtile `gen' = `rn' if `touse', n(`n')
+
+end
 
 
 

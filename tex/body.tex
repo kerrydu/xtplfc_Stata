@@ -1,0 +1,47 @@
+% readme.tex -- a short example of how each Stata Journal insert should be
+% organized.
+
+\inserttype{article}
+\author{Short article author list}{%
+  Kerui Du\\School of Management, Xiamen University\\Xiamen, Fujian/China\\kerrydu@xmu.edu.cn
+
+  \and
+ Yonghui Zhang\\School of Economics, Renmin University of China\\Beijing/China\\ yonghui.zhang@hotmail.com
+
+  \and
+  Qiankun Zhou\\Department of Economics, Louisiana State University\\Baton Rouge/USA\\qzhou@lsu.edu
+
+
+}
+
+\title[Short toc article title]{Estimating partially linear functional-coefficient panel data models with Stata}
+\maketitle
+
+\begin{abstract}
+	In this article, we describe Stata implementation of estimating partially linear functional-coefficient panel models with fixed effects proposed by \citet{yonghong2016semiparametric} and \citet{Zhang2018}. Three new commands xtplfc, ivxtplfc and xtdplfc are introduced and illustrated through Monte Carlo simulations to exemplify the effectiveness of these estimators.
+	
+	\keywords{xtplfc, ivxtplfc, xtdplfc, functional coefficients, fixed effects, sieve, spline}
+\end{abstract}
+
+% discussion of the Stata Journal document class.
+%\input sj.tex
+% discussion of the Stata Press LaTeX package for Stata output.
+%\input stata.tex
+\input first.tex
+% discussion of the Stata Press LaTeX package for Stata output.
+\input second.tex
+
+\bibliographystyle{sj}
+\bibliography{sj}
+
+\begin{aboutauthors}
+Kerui Du is an associate professor at School of Management, Xiamen University. His primary research interests are applied econometrics, energy and environmental economics.
+
+Yonghui Zhang (corresponding author) is an assistant professor of Economics at School of Economics, Renmin University of China. His primary research interests are both theoretical and applied econometrics, with a focus on nonparametric econometrics.
+
+Qiankun Zhou is an associate professor of Economics at the Department of Economics of Louisiana State University. His primary research interests are both theoretical and applied econometrics, with a focus on panel data econometrics.
+
+
+\end{aboutauthors}
+
+\endinput

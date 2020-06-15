@@ -1,0 +1,705 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.5)  15 JUN 2020 14:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**manuscript.tex
+(./manuscript.tex
+LaTeX2e <2018-12-01>
+(d:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(d:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(d:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(d:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(d:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(d:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(d:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(d:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(d:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (./sj.sty
+Package: sj 2003/12/10 v1.22 Stata Journal package
+
+(d:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(d:/texlive/2019/texmf-dist/tex/latex/cite/chapterbib.sty
+\c@inputfile=\count100
+Package: chapterbib 2010/09/18  v 1.17
+)
+\c@chapter=\count101
+\sj@tagfile=\write3
+\openout3 = `manuscript.tag'.
+
+\columnpicbox=\box29
+\columnpichght=\count102
+\sj@len@max@title=\skip46
+\sj@len@a=\skip47
+\sj@len@b=\skip48
+\sj@pp@file=\write4
+\c@sj@pp@thispage=\count103
+)
+(d:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(d:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(d:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(d:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(d:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(d:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(d:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(d:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(d:/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(d:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(d:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(d:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(d:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(d:/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(d:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(d:/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(d:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(d:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(./kbordermatrix.sty
+Package: kbordermatrix 2011/09/21 Bordered matrix with brackets
+\kbcolsep=\skip49
+\kbrowsep=\skip50
+\br@kwd=\skip51
+\k@bordht=\skip52
+)
+(d:/texlive/2019/texmf-dist/tex/latex/blkarray/blkarray.sty
+Package: blkarray 2015/02/27 v0.07 Block array (dpc)
+\c@BAenumi=\count104
+\BA@col=\count105
+\BA@block@cnt=\count106
+\BA@final@box=\box30
+\BA@first@box=\box31
+\BA@colsep=\dimen114
+\BA@ftn=\toks20
+\BAextrarowheight=\dimen115
+\BAextraheightafterhline=\dimen116
+\BAarrayrulewidth=\dimen117
+\BAdoublerulesep=\dimen118
+\BAfootskip=\dimen119
+\BA@dashbox=\box32
+\BA@ddashbox=\box33
+)
+(d:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen120
+\lightrulewidth=\dimen121
+\cmidrulewidth=\dimen122
+\belowrulesep=\dimen123
+\belowbottomsep=\dimen124
+\aboverulesep=\dimen125
+\abovetopsep=\dimen126
+\cmidrulesep=\dimen127
+\cmidrulekern=\dimen128
+\defaultaddspace=\dimen129
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen130
+\@belowrulesep=\dimen131
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen132
+)
+(d:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip53
+\multirow@cntb=\count111
+\multirow@dima=\skip54
+\bigstrutjot=\dimen133
+) (./stata.sty
+Package: stata 2013/10/23 v1.34 LaTeX package for Stata code
+
+(d:/texlive/2019/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(d:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count112
+\calc@Bcount=\count113
+\calc@Adimen=\dimen134
+\calc@Bdimen=\dimen135
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count114
+\calc@Cskip=\skip57
+)
+\st@box=\box34
+\st@box@wd=\dimen136
+\st@box@ht=\dimen137
+\st@box@dp=\dimen138
+\stsyndent=\skip58
+\streswidth=\skip59
+\st@parindent=\skip60
+\stexamplehskip=\skip61
+\sttechhskip=\skip62
+\st@ttbox@box=\box35
+\st@ttbox@framesep=\dimen139
+\ttboxIndent=\dimen140
+\ttboxWd=\dimen141
+\st@ttbox@boxwd=\dimen142
+\st@box=\box36
+\st@emptywidth=\skip63
+\st@linesize=\skip64
+\st@maxdepth=\skip65
+\st@maxheight=\skip66
+\st@mbdepth=\skip67
+\st@mtdepth=\skip68
+\st@xheight=\skip69
+\st@xwidth=\skip70
+\st@N=\count115
+)
+(d:/texlive/2019/texmf-dist/tex/latex/shadow/shadow.sty
+Package: shadow 2003/02/19 v1.3 shadow boxes (M.O.)
+\txtwdth=\dimen143
+\sht=\dimen144
+\shw=\dimen145
+\shbox=\box37
+\sboxsep=\dimen146
+\sboxrule=\dimen147
+\sdim=\dimen148
+)
+(d:/texlive/2019/texmf-dist/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2016/12/28 v2.2 Making table heads with diagonal lines
+
+(d:/texlive/2019/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2019/08/20 v0.3c Improved picture commands (HjG,RN,JT)
+
+(d:/texlive/2019/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+(d:/texlive/2019/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks21
+\@arclen=\dimen149
+\@arcrad=\dimen150
+\@tempdimd=\dimen151
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(d:/texlive/2019/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count116
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count117
+\FP@xia=\count118
+\FP@xib=\count119
+\FP@xfa=\count120
+\FP@xfb=\count121
+\FP@rega=\count122
+\FP@regb=\count123
+\FP@regs=\count124
+\FP@times=\count125
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count126
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(d:/texlive/2019/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+(d:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box38
+\extrarowheight=\dimen153
+\NC@list=\toks22
+\extratabsurround=\skip71
+\backup@length=\skip72
+\ar@cellbox=\box39
+)
+\diagbox@boxa=\box40
+\diagbox@boxb=\box41
+\diagbox@boxm=\box42
+\diagbox@wd=\dimen154
+\diagbox@ht=\dimen155
+\diagbox@insepl=\dimen156
+\diagbox@insepr=\dimen157
+\diagbox@outsepl=\dimen158
+\diagbox@outsepr=\dimen159
+)
+(d:/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip73
+\bibsep=\skip74
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count127
+) (./manuscript.aux
+
+LaTeX Warning: Label `Tab03' multiply defined.
+
+)
+\openout1 = `manuscript.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+ (d:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count128
+\scratchdimen=\dimen160
+\scratchbox=\box43
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen161
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks24
+) (./body.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+ (d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+
+(d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+New article: (chapter 1: dest notag1)
+Package sj Info: New article: (chapter 1: dest notag1) on input line 18.
+(./first.tex [1
+
+
+
+{d:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (6.36917pt too wide) in paragraph at lines 23--24
+\OT1/cmr/m/n/10 mate the un-known func-tional co-ef-fi-cients in []. Let $\OML/
+cmm/m/it/10 h[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^A\OT1/cmr/m/n/10 ) = (\OML/c
+mm/m/it/10 h[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^A\OT1/cmr/m/n/10 )\OML/cmm/m/
+it/10 ; [] ; h[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^A\OT1/cmr/m/n/10 ))[]$
+ []
+
+[2]
+Overfull \hbox (22.87813pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/n/10 where $[] = (\OML/cmm/m/it/10 X; H\OT1/cmr/m/n/10 )$;$\OML/cmm/
+m/it/10 X \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 X[]; :::; X[]\OT1/cmr/m/n/10 )[]\
+OML/cmm/m/it/10 ; X[] \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 X[]; [] ; X[]\OT1/cmr
+/m/n/10 )[]$; $\OML/cmm/m/it/10 H \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 H[]; :::;
+ H[]\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 ; H[] \OT1/cmr/m/n/10 =
+ []
+
+) (./second.tex [3]
+Overfull \hbox (6.82845pt too wide) in paragraph at lines 46--48
+\OT1/cmtt/m/n/10 power(\OT1/cmtt/m/it/10 numlist\OT1/cmtt/m/n/10 ) \OT1/cmr/m/n
+/10 spec-i-fies the power (or de-gree) of the splines; de-fault is power(3). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+[4]
+Underfull \hbox (badness 2435) in paragraph at lines 123--125
+[]|\OT1/cmr/m/n/8 variance-covariance ma-trix
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 127--129
+[]|\OT1/cmr/m/n/8 variance-covariance ma-trix
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 140--142
+[]|\OT1/cmr/m/n/8 variables stor-ing the es-
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 140--142
+\OT1/cmr/m/n/8 ti-mated func-tional co-ef-fi-
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 144--146
+[]|\OT1/cmr/m/n/8 Fixed-effect Se-ries Semi-
+ []
+
+
+Overfull \hbox (7.22247pt too wide) in paragraph at lines 157--158
+\OT1/cmtt/m/n/10 ivxtplfc \OT1/cmr/m/n/10 es-ti-mates Zhang and Zhou's (2020) p
+ar-tially lin-ear functional-coefficient
+ []
+
+[5]
+Overfull \hbox (2.68575pt too wide) in paragraph at lines 212--217
+\OT1/cmtt/m/n/10 ivz(\OT1/cmr/m/it/10 varlist\OT1/cmtt/m/n/10 , uflag(\OT1/cmtt
+/m/it/10 numlist\OT1/cmtt/m/n/10 ) [ivtype\OT1/cmtt/m/it/10 (numlist\OT1/cmtt/m
+/n/10 )]) \OT1/cmr/m/n/10 spec-ify in-stru-men-tal vari-
+ []
+
+
+Overfull \hbox (6.82845pt too wide) in paragraph at lines 222--224
+\OT1/cmtt/m/n/10 power(\OT1/cmtt/m/it/10 numlist\OT1/cmtt/m/n/10 ) \OT1/cmr/m/n
+/10 spec-i-fies the power (or de-gree) of the splines; de-fault is power(3). 
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 296--298
+[]|\OT1/cmr/m/n/8 variance-covariance ma-trix
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 300--302
+[]|\OT1/cmr/m/n/8 variance-covariance ma-trix
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 313--315
+[]|\OT1/cmr/m/n/8 variables stor-ing the es-
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 313--315
+\OT1/cmr/m/n/8 ti-mated func-tional co-ef-fi-
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 317--319
+[]|\OT1/cmr/m/n/8 Fixed-effect Se-ries Semi-
+ []
+
+[7]
+Overfull \hbox (1.97252pt too wide) in paragraph at lines 331--332
+\OT1/cmtt/m/n/10 xtdplfc \OT1/cmr/m/n/10 es-ti-mates Zhang and Zhou's (2020) pa
+r-tially lin-ear functional-coefficient
+ []
+
+
+Overfull \hbox (2.68575pt too wide) in paragraph at lines 396--401
+\OT1/cmtt/m/n/10 ivz(\OT1/cmr/m/it/10 varlist\OT1/cmtt/m/n/10 , uflag(\OT1/cmtt
+/m/it/10 numlist\OT1/cmtt/m/n/10 ) [ivtype\OT1/cmtt/m/it/10 (numlist\OT1/cmtt/m
+/n/10 )]) \OT1/cmr/m/n/10 spec-ify in-stru-men-tal vari-
+ []
+
+[8]
+Overfull \hbox (6.82845pt too wide) in paragraph at lines 417--419
+\OT1/cmtt/m/n/10 power(\OT1/cmtt/m/it/10 numlist\OT1/cmtt/m/n/10 ) \OT1/cmr/m/n
+/10 spec-i-fies the power (or de-gree) of the splines; de-fault is power(3). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 492--494
+[]|\OT1/cmr/m/n/8 variance-covariance ma-trix
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 496--498
+[]|\OT1/cmr/m/n/8 variance-covariance ma-trix
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 509--511
+[]|\OT1/cmr/m/n/8 variables stor-ing the es-
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 509--511
+\OT1/cmr/m/n/8 ti-mated func-tional co-ef-fi-
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 513--515
+[]|\OT1/cmr/m/n/8 Fixed-effect Se-ries Semi-
+ []
+
+[9] (./simulation.tex [10] [11]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 111.
+
+Overfull \hbox (11.50479pt too wide) in paragraph at lines 111--111
+ []\OT1/cmtt/m/n/8 6.         qui xtplfc y x1 x2, z(z) u(x3) maxnk(20) gen(fit^
+^Rj^^S) fast brep(500)[] 
+ []
+
+[12]
+Overfull \hbox (41.25522pt too wide) in paragraph at lines 165--165
+ []\OT1/cmtt/m/n/8 >    legend(label(1 confidence interval at 95%) label(3 DGP)
+ label(2 average fit) ///[] 
+ []
+
+
+Overfull \hbox (32.7551pt too wide) in paragraph at lines 166--166
+ []\OT1/cmtt/m/n/8 >    cols(3) order(3 1 2)) xtitle("X3",height(5)) ytitle("g(
+X3)",height(5)) sch(sj)[] 
+ []
+
+[13]
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2020-06-05 20:23:44
+(epstopdf)                    size: 180767 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-05 22:13:40
+(epstopdf)                    size: 78198 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf 
+fig1.eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+<fig1-eps-converted-to.pdf, id=62, 258.9675pt x 188.705pt>
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1-eps-converted-to.pdf>
+Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 278.
+(pdftex.def)             Requested size: 297.53763pt x 216.81pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15 <./fig1-eps-converted-to.pdf>]
+Overfull \hbox (20.00491pt too wide) in paragraph at lines 353--353
+ []\OT1/cmtt/m/n/8 >                                maxnknots(20) ivz(L2_y,ufla
+g(1)) fast brep(500)[] 
+ []
+
+[16]
+Overfull \hbox (75.2557pt too wide) in paragraph at lines 409--409
+ []\OT1/cmtt/m/n/8 >            legend(label(1 confidence interval at 95%) labe
+l(3 DGP) label(2 average fit) ///[] 
+ []
+
+
+Overfull \hbox (66.75558pt too wide) in paragraph at lines 410--410
+ []\OT1/cmtt/m/n/8 >            cols(3) order(3 1 2)) xtitle("U", height(5)) yt
+itle("g(U)", height(5)) sch(sj)[] 
+ []
+
+[17]
+Package epstopdf Info: Source file: <fig2.eps>
+(epstopdf)                    date: 2020-06-05 20:35:52
+(epstopdf)                    size: 188534 bytes
+(epstopdf)             Output file: <fig2-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-05 22:13:42
+(epstopdf)                    size: 92981 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig2-eps-converted-to.pdf 
+fig2.eps>
+(epstopdf)             \includegraphics on input line 518.
+Package epstopdf Info: Output file is already uptodate.
+<fig2-eps-converted-to.pdf, id=82, 258.9675pt x 188.705pt>
+File: fig2-eps-converted-to.pdf Graphic file (type pdf)
+<use fig2-eps-converted-to.pdf>
+Package pdftex.def Info: fig2-eps-converted-to.pdf  used on input line 518.
+(pdftex.def)             Requested size: 297.53763pt x 216.81pt.
+) [18 <./fig2-eps-converted-to.pdf>]) (./manuscript.bbl [19]) [20])
+\openout4 = `manuscript.pp1'.
+
+
+[21] (./manuscript.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4587 strings out of 492609
+ 57158 string characters out of 6132819
+ 153877 words of memory out of 5000000
+ 8343 multiletter control sequences out of 15000+600000
+ 13898 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,9n,27p,1217b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb><d:/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2019/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2019/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmssbx10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.p
+fb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><d:/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on manuscript.pdf (21 pages, 445843 bytes).
+PDF statistics:
+ 167 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

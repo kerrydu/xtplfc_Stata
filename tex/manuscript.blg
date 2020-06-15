@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: manuscript.aux
+The style file: sj.bst
+Database file #1: sj.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 19 entries,
+            3193 wiz_defined-function locations,
+            807 strings with 8815 characters,
+and the built_in function-call counts, 11138 in all, are:
+= -- 1007
+> -- 548
+< -- 8
++ -- 185
+- -- 159
+* -- 1103
+:= -- 1887
+add.period$ -- 78
+call.type$ -- 19
+change.case$ -- 227
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 500
+empty$ -- 801
+format.name$ -- 218
+if$ -- 2181
+int.to.chr$ -- 2
+int.to.str$ -- 2
+missing$ -- 19
+newline$ -- 104
+num.names$ -- 76
+pop$ -- 156
+preamble$ -- 1
+purify$ -- 223
+quote$ -- 0
+skip$ -- 363
+stack$ -- 0
+substring$ -- 635
+swap$ -- 81
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 171
+warning$ -- 0
+while$ -- 88
+width$ -- 0
+write$ -- 256

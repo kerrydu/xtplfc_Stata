@@ -1,0 +1,65 @@
+
+\section{Introduction}
+A partial linear functional-coefficient regression model allows for linearity in some regressors and nonlinearity in other regressors, where the effects of these covariates on the dependent variable vary according to a set of low-dimensional variables nonparametrically \citep{Cai2017}, thereby showing distinct advantages in capturing nonlinearity and heterogeneity. Since the seminal work of \citet{chen1993functional}, the functional-coefficient models have drawn much attention in the literature. To name a few,
+ % \citet{cai2000functional} propose employing local linear regression technique to estimate functional-coefficient models under for time series data. \citet{Cai2000JA} deal with statistical inference for the functional-coefficient models under a time series framework. \citet{cai2009functional} explore functional coefficient regression models with nonstationary time series data.
+ \citeauthor{cai2000functional} \citeyearpar{cai2000functional,Cai2000JA,cai2009functional} study functional-coefficient models under the time series framework.
+ \citet{huang2004polynomial} estimate a functional-coefficient panel data model without fixed effects via the series method. \citet{cai2008nonparametric} study functional-coefficient dynamic panel data models without fixed effects based on the kernel method. \citet{sun2009semiparametric} consider functional-coefficient panel data models with fixed effects which are removed via the least square dummy variable (LSDV) approach. Alternatively, \citet{yonghong2016semiparametric} deal with the fixed effects via the first time difference and estimate the models using the series method. \citet{Zhang2018} propose to use a sieve-2SLS procedure to estimate functional-coefficient panel dynamic models with fixed effects and develop a model specification test for the constancy of slopes.
+
+In empirical studies, functional-coefficient models have been widely used. For example, they are applied to explore whether working experience matters to the impact of eduction on wage \citep{su2013local,Cai2017}, to analyze the heterogeneous effect of FDI on economic growth \citep{Delgado2014,Cai2017}, to examine the nonlinear relationship between income level and democracy \citep{lundberg2017income,Zhang2018}, to compare the returns to scale of the US commercial banks across different regimes \citep{FENG201768}, and to investigate the role of marketization in China's energy rebound effect \citep{LI2019101304}. 
+
+The objective of this article is to present a new Stata module to estimate partially linear functional-coefficient panel data models with fixed effects. The remainder of the paper is organized as follows. Section 2 briefly describes the model and the estimation procedure. Sections 3-5 explain the syntax and options of the new commands. Section 6 provides some Monte Carlo simulations. Section 7 concludes the paper.
+
+\section{The model}
+
+Consider a partially linear functional-coefficient panel data model of the form
+\begin{equation}
+Y_{it}=Z_{it}'g(U_{it})+X_{it}'\beta+a_{i}+\varepsilon_{it},i=1,\dots,N, t=1,\dots, T, \label{eq1}
+\end{equation}
+where the subscript $i$ and $t$ denote individual $i$ and time $t$, respectively; $Y_{it}$ is the scalar dependent variable; $U_{it}=(U_{1,it},\dots,U_{l,it})'$ is a vector of continuous variables; $Z_{it}=(Z_{1,it},\dots,Z_{l,it})'$ is a vector of covariates with functional coefficients $g(U_{it})=(g_{1}(U_{1,it}),\dots,g_{l}(U_{l,it}))'$; $X_{it}$ is a $k \times 1$ vector of covariates with constant slopes $\beta$; $a_{i}$ is the individual fixed effects which might be correlated with $Z_{it}$, $U_{it}$ and $X_{it}$. $\varepsilon_{it}$ represents the idiosyncratic error. Moreover, part of the elements in $Z_{it}$ and $X_{it}$ are allowed to be endogenous variables which are correlated with $\varepsilon_{it}$, and they could also include lagged dependent variables as in \citet{Zhang2018}\footnote{In this paper, we restrict that all elements in $U_{it}$ are exogenous. Thus, for the case of dynamic panel data models, the first lagged dependent variable should not enter $U_{it}$}. In the latter case, model \eqref{eq1} becomes a dynamic panel model with functional coefficients.
+
+
+Recently, \citet{yonghong2016semiparametric} and \citet{Zhang2018} propose using the series method to estimate model \eqref{eq1}. The estimation procedure is sketched as follows.
+
+First, one can use a linear combination of sieve basis functions to approximate the unknown functional coefficients in \eqref{eq1}. Let $h^{p}(\cdot)=(h_{p,1}(\cdot),\dots,h_{p,L_{p}}(\cdot))'$ be a $L_{p} \times 1$ sequence of basis functions where the number of sieve basis functions $L_{p} \equiv L_{NL}$ increases as either $N$ or $T$ increases. We have $g_{p}(\cdot) \approx h^{p}(\cdot)'\gamma_{p}$ for $p=1,\dots,l$, where $\gamma_{p}=(\gamma_{p1},\dots,\gamma_{pL{p}})$. Then model \eqref{eq1} can be re-written as
+
+\begin{equation}
+Y_{it}=H_{it}'\Gamma+X_{it}'\beta+a_{i}+v_{it}, \label{eq2}
+\end{equation}
+where $H_{it}\equiv (Z_{1,it}h^{1}(U_{1,it})',\dots,Z_{l,it}h^{l}(U_{l,it})')'$, $\Gamma \equiv (\gamma_{1}',\dots,\gamma_{l}')'$ and $v_{it}=\varepsilon_{it}+r_{it}$,
+\begin{equation}
+r_{it}=Z_{it}'g(U_{it})-H_{it}'\Gamma,  \label{eq3}
+\end{equation}
+denoting the sieve approximation error which becomes
+asymptotic negligible as $L_{p} \to \infty$ for $p=1,\dots,l$ when $(N,T) \to \infty$.
+
+
+Then, taking the first time difference of model \eqref{eq2} to eliminate the fixed effects yields
+ \begin{equation}
+ \Delta Y_{it}=\Delta H_{it}'\Gamma+\Delta X_{it}'\beta+\Delta v_{it}, \label{eq4}
+ \end{equation}
+where $\Delta$ represents first difference operator, i.e., $\Delta A_{t} \equiv A_{t}-A_{t-1}$.
+
+If all the variables are exogenous, model \eqref{eq4} can be estimated through the least square(LS) method as in \citet{yonghong2016semiparametric}
+
+\begin{equation}
+\left( \hat{\Gamma}',\hat{\beta}' \right)'=\left(\Delta \tilde{X}' \Delta \tilde{X} \right)^{-}\left(\Delta \tilde{X}' \Delta Y  \right),
+\end{equation}
+where $\tilde{X}=(X,H)$;$X=(X_{1}',...,X_{N}')',X_{i}=(X_{i1},\dots ,X_{iT})'$; $H=(H_{1},...,H_{N})',H_{i}=(H_{i1},\dots ,H_{iT})'$, and $^{-}$ denotes the generalized inverse.
+
+If part of variables in $Z_{it}$ and $X_{it}$ are endogenous, Eq. \eqref{eq4} can be estimated via the two-step least square(2SLS) method as in \citet{Zhang2018}. Suppose we have a $d \times 1$ vector of instrumental variables with $d \geq (\sum_{p=1}^{l}L_{p}+k)$. The 2SLS estimator is given by
+
+\begin{equation}
+\left( \hat{\Gamma}',\hat{\beta}' \right)'=\left(\Delta \tilde{X}' P_{W} \Delta \tilde{X} \right)^{-}\left(\Delta \tilde{X}' P_{W} \Delta Y  \right),
+\end{equation}
+where $P_{W}=W(W'W)^{-}W'$ is a projection matrix with $W$ being the instrumental variables matrix.
+
+Once $\hat{\Gamma}$ is obtained, the functional coefficients $g(U_{it})$ can be estimated
+\begin{equation}
+\hat{g}_{p}(U_{p,it})=h^{p}(U_{p,it})'\hat{\gamma_{p}},p=1,\dots,l.
+\end{equation}
+
+Under certain regular assumptions, \citet{Zhang2018} establish the consistency and asymptotic normality of the above estimators when sample size $N$ and $T$ go to infinity jointly or only $N$ tends to infinity.
+
+In practice, there are several sieve methods to approximate the unknown functions. We follow \citet{libois2013semiparametric} to employ the $\mathrm{B}$-splines. More technical details on the $\mathrm{B}$-splines can be found in \citet{newson2001b}.
+
+\endinput

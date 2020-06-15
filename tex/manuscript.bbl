@@ -1,0 +1,121 @@
+\ifnum 19=1 \def\bibname{Reference}
+\else \def\bibname{References} \fi
+\begin{thebibliography}{19}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{An et~al.(2016)An, Hsiao, and Li}]{yonghong2016semiparametric}
+An, Y., C.~Hsiao, and D.~Li. 2016.
+\newblock Semiparametric Estimation of Partially Linear Varying Coefficient
+  Panel Data Models.
+\newblock In \emph{Essays in Honor of Aman Ullah (Advances in Econometrics,
+  Volume 36)},  47--65. Emerald Group Publishing Limited.
+
+\bibitem[{Burton et~al.(2006)Burton, Altman, Royston, and Holder}]{sim2006}
+Burton, A., D.~G. Altman, P.~Royston, and R.~L. Holder. 2006.
+\newblock The design of simulation studies in medical statistics.
+\newblock \emph{Statistics in Medicine} 25(24): 4279--4292.
+
+\bibitem[{Cai et~al.(2000{\natexlab{a}})Cai, Fan, and Li}]{Cai2000JA}
+Cai, Z., J.~Fan, and R.~Li. 2000{\natexlab{a}}.
+\newblock Efficient Estimation and Inferences for Varying-Coefficient Models.
+\newblock \emph{Journal of the American Statistical Association} 95(451):
+  888--902.
+
+\bibitem[{Cai et~al.(2000{\natexlab{b}})Cai, Fan, and Yao}]{cai2000functional}
+Cai, Z., J.~Fan, and Q.~Yao. 2000{\natexlab{b}}.
+\newblock Functional-coefficient regression models for nonlinear time series.
+\newblock \emph{Journal of the American Statistical Association} 95(451):
+  941--956.
+
+\bibitem[{Cai et~al.(2017)Cai, Fang, Lin, and Su}]{Cai2017}
+Cai, Z., Y.~Fang, M.~Lin, and J.~Su. 2017.
+\newblock Inferences for a Partially Varying Coefficient Model With Endogenous
+  Regressors.
+\newblock \emph{Journal of Business \& Economic Statistics} 0(0): 1--13.
+
+\bibitem[{Cai and Li(2008)}]{cai2008nonparametric}
+Cai, Z., and Q.~Li. 2008.
+\newblock Nonparametric estimation of varying coefficient dynamic panel data
+  models.
+\newblock \emph{Econometric Theory} 24(5): 1321--1342.
+
+\bibitem[{Cai et~al.(2009)Cai, Li, and Park}]{cai2009functional}
+Cai, Z., Q.~Li, and J.~Y. Park. 2009.
+\newblock Functional-coefficient models for nonstationary time series data.
+\newblock \emph{Journal of Econometrics} 148(2): 101--113.
+
+\bibitem[{Chen and Tsay(1993)}]{chen1993functional}
+Chen, R., and R.~S. Tsay. 1993.
+\newblock Functional-coefficient autoregressive models.
+\newblock \emph{Journal of the American Statistical Association} 88(421):
+  298--308.
+
+\bibitem[{Delgado et~al.(2014)Delgado, McCloud, and Kumbhakar}]{Delgado2014}
+Delgado, M.~S., N.~McCloud, and S.~C. Kumbhakar. 2014.
+\newblock A generalized empirical model of corruption, foreign direct
+  investment, and growth.
+\newblock \emph{Journal of Macroeconomics} 42: 298 -- 316.
+
+\bibitem[{Feng et~al.(2017)Feng, Gao, Peng, and Zhang}]{FENG201768}
+Feng, G., J.~Gao, B.~Peng, and X.~Zhang. 2017.
+\newblock A varying-coefficient panel data model with fixed effects: Theory and
+  an application to US commercial banks.
+\newblock \emph{Journal of Econometrics} 196(1): 68 -- 82.
+
+\bibitem[{Huang et~al.(2004)Huang, Wu, and Zhou}]{huang2004polynomial}
+Huang, J.~Z., C.~O. Wu, and L.~Zhou. 2004.
+\newblock Polynomial spline estimation and inference for varying coefficient
+  models with longitudinal data.
+\newblock \emph{Statistica Sinica}  763--788.
+
+\bibitem[{Li et~al.(2019)Li, Liu, and Du}]{LI2019101304}
+Li, J., H.~Liu, and K.~Du. 2019.
+\newblock Does market-oriented reform increase energy rebound effect? Evidence
+  from China's regional development.
+\newblock \emph{China Economic Review} 56: 101304.
+
+\bibitem[{Libois et~al.(2013)Libois, Verardi et~al.}]{libois2013semiparametric}
+Libois, F., V.~Verardi, et~al. 2013.
+\newblock Semiparametric fixed-effects estimator.
+\newblock \emph{Stata journal} 13(2): 329--336.
+
+\bibitem[{Lundberg et~al.(2017)Lundberg, Huynh, and
+  Jacho-Ch{\'a}vez}]{lundberg2017income}
+Lundberg, A.~L., K.~P. Huynh, and D.~T. Jacho-Ch{\'a}vez. 2017.
+\newblock Income and democracy: A smooth varying coefficient redux.
+\newblock \emph{Journal of Applied Econometrics} 32(3): 719--724.
+
+\bibitem[{Newson(2001)}]{newson2001b}
+Newson, R. 2001.
+\newblock B-splines and splines parameterized by their values at reference
+  points on the x-axis.
+\newblock \emph{Stata Technical Bulletin} 10(57).
+
+\bibitem[{Su et~al.(2013)Su, Murtazashvili, and Ullah}]{su2013local}
+Su, L., I.~Murtazashvili, and A.~Ullah. 2013.
+\newblock Local linear GMM estimation of functional coefficient IV models with
+  an application to estimating the rate of return to schooling.
+\newblock \emph{Journal of Business \& Economic Statistics} 31(2): 184--207.
+
+\bibitem[{Sun et~al.(2009)Sun, Carroll, and Li}]{sun2009semiparametric}
+Sun, Y., R.~J. Carroll, and D.~Li. 2009.
+\newblock Semiparametric estimation of fixed-effects panel data varying
+  coefficient models.
+\newblock In \emph{Nonparametric econometric methods},  101--129. Emerald Group
+  Publishing Limited.
+
+\bibitem[{{White}(2010)}]{white2010simsum}
+{White}, I.~R. 2010.
+\newblock simsum: Analyses of simulation studies including Monte Carlo error.
+\newblock \emph{Stata Journal} 10(3): 369--385.
+
+\bibitem[{Zhang and Zhou(2020)}]{Zhang2018}
+Zhang, Y., and Q.~Zhou. 2020.
+\newblock Partially Linear Functional-Coefficient Dynamic Panel Data Models:
+  Sieve Estimation and Specification Testing.
+\newblock \emph{Forthcoming at Econometric Reviews} .
+
+\end{thebibliography}

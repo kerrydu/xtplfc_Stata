@@ -1,3 +1,5 @@
+*! version 7.0.1
+* 2020-6-15
 *! version 7.0
 * 2019-8-26
 * change cvtwo option to tenfoldcv
@@ -8,7 +10,7 @@
 * 2018-12-11
 * 2018-11-16
 *! version 6.0.4 add time fixed effect option
-*  Kerry Du, kerrydu@sdu.edu.cn
+*  Kerry Du, kerrydu@xmu.edu.cn
 cap program drop xtplfc
 program define xtplfc, eclass prop(xt)
 		
@@ -44,7 +46,7 @@ syntax varlist, Zvars(varlist) Uvars(varlist) GENerate(string) [ ///
 		exit 198
 		}
 
-  			  
+  	qui mata mata mlib index		  
 				  
 *********************************************************************				  
 if "`fast'"!=""{
@@ -1497,7 +1499,7 @@ end
 
 ****************************************************************************
 
-
+/*
 cap program drop splitsample
 
 program define splitsample
@@ -1531,5 +1533,26 @@ _pctile `rn', p(`n1'(`n1')`n2' )
 		}
 
 		qui replace `gen'=`n' if missing(`gen') & `touse'
+
+end
+*/
+* 2020-6-15
+cap program drop splitsample
+
+program define splitsample
+
+version 14
+
+syntax [if] [in], gen(string) [n(integer 2)]
+
+marksample touse
+
+*count if `touse'
+confirm new var `gen'
+
+tempvar rn
+qui gen `rn'=uniform() if `touse'
+
+qui xtile `gen' = `rn' if `touse', n(`n')
 
 end
